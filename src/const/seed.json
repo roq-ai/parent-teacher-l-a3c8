@@ -1,0 +1,2572 @@
+[
+  {
+    "teacher": [
+      {
+        "id": "2b71ed55-6d82-49d0-acf3-11e9356d5856",
+        "subject": "Mathematics",
+        "qualification": "Master's Degree in Education",
+        "experience": 19914,
+        "created_at": "2023-08-31T15:47:10.582Z",
+        "updated_at": "2023-08-31T00:40:23.307Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28105db4-2a52-403f-bc35-c4499753a52e",
+        "subject": "Science",
+        "qualification": "Bachelor's Degree in Mathematics",
+        "experience": 42566,
+        "created_at": "2023-08-31T08:14:40.973Z",
+        "updated_at": "2023-08-31T05:08:01.922Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e2ad3e4-e171-4c95-8e96-b204c2a0f36e",
+        "subject": "English",
+        "qualification": "Certified Teaching Professional",
+        "experience": 56210,
+        "created_at": "2023-08-31T04:48:39.395Z",
+        "updated_at": "2023-08-31T06:25:00.345Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d892c59-20a8-4417-b55a-c74a18982013",
+        "subject": "History",
+        "qualification": "Ph.D. in Science",
+        "experience": 20739,
+        "created_at": "2023-08-31T02:45:34.347Z",
+        "updated_at": "2023-08-30T23:09:51.577Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba687fec-b0e6-4e32-842b-dd7a9364c986",
+        "subject": "Art",
+        "qualification": "Specialization in Language Teaching",
+        "experience": 39417,
+        "created_at": "2023-08-30T23:53:13.747Z",
+        "updated_at": "2023-08-30T23:40:00.628Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "324ff2d8-367a-45be-a23c-7a0ea17a5b70",
+        "grade": 80309,
+        "performance_data": "Excellent",
+        "routine": "Morning Assembly",
+        "created_at": "2023-08-31T02:47:18.682Z",
+        "updated_at": "2023-08-31T01:20:01.957Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec3c9c20-33f3-4622-ae7e-bed9fe010567",
+        "grade": 83066,
+        "performance_data": "Above Average",
+        "routine": "Math Class",
+        "created_at": "2023-08-30T22:53:20.583Z",
+        "updated_at": "2023-08-30T21:29:09.161Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df842072-42ce-425a-8f3d-51ba2538694e",
+        "grade": 23766,
+        "performance_data": "Average",
+        "routine": "Lunch Break",
+        "created_at": "2023-08-31T13:15:04.234Z",
+        "updated_at": "2023-08-31T00:14:34.410Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33273485-5176-4f1d-b0df-d538022bf320",
+        "grade": 29208,
+        "performance_data": "Below Average",
+        "routine": "Science Lab",
+        "created_at": "2023-08-30T19:44:20.008Z",
+        "updated_at": "2023-08-31T16:03:26.967Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a464261-6adb-4e65-9894-2a7b2d58b8cc",
+        "grade": 94457,
+        "performance_data": "Needs Improvement",
+        "routine": "Sports Club",
+        "created_at": "2023-08-30T21:21:05.010Z",
+        "updated_at": "2023-08-31T09:14:02.307Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "e7505349-5a77-485e-87f1-418842394cc2",
+        "relationship": "Father",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T12:53:00.595Z",
+        "updated_at": "2023-08-31T18:24:45.349Z",
+        "student_id": "ec3c9c20-33f3-4622-ae7e-bed9fe010567",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a11fd429-5b83-474b-83e2-3acc35e2dfce",
+        "relationship": "Mother",
+        "contact_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T16:49:03.449Z",
+        "updated_at": "2023-08-31T01:59:11.727Z",
+        "student_id": "ec3c9c20-33f3-4622-ae7e-bed9fe010567",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c6887d6-c4da-489a-b216-23aa8707d5d9",
+        "relationship": "Guardian",
+        "contact_number": "5555555555",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-31T10:00:02.271Z",
+        "updated_at": "2023-08-30T21:38:55.402Z",
+        "student_id": "df842072-42ce-425a-8f3d-51ba2538694e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "816ff675-9e45-4d8a-9979-1de89042061a",
+        "relationship": "Step-parent",
+        "contact_number": "9999999999",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-31T17:03:27.168Z",
+        "updated_at": "2023-08-30T22:17:10.107Z",
+        "student_id": "df842072-42ce-425a-8f3d-51ba2538694e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79f21ae2-630b-472f-b489-2e3b730553e4",
+        "relationship": "Grandparent",
+        "contact_number": "1111111111",
+        "address": "555 Pine Road",
+        "created_at": "2023-08-31T09:46:50.173Z",
+        "updated_at": "2023-08-31T14:01:05.795Z",
+        "student_id": "ec3c9c20-33f3-4622-ae7e-bed9fe010567",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "234280dd-b99e-4a51-8f4b-aff82477f660",
+        "topic": "Upcoming School Event",
+        "message": "Dear parents, we are excited to invite you to our annual school fair.",
+        "date_time": "2023-08-31T03:23:19.609Z",
+        "created_at": "2023-08-31T16:33:14.268Z",
+        "updated_at": "2023-08-31T01:14:25.915Z",
+        "parent_id": "e7505349-5a77-485e-87f1-418842394cc2",
+        "teacher_id": "ba687fec-b0e6-4e32-842b-dd7a9364c986"
+      },
+      {
+        "id": "99ea626e-313a-47cd-9a97-c32266b260bb",
+        "topic": "Parent-Teacher Meeting",
+        "message": "Hello, we would like to schedule a meeting to discuss your child's progress.",
+        "date_time": "2023-08-31T00:08:58.314Z",
+        "created_at": "2023-08-30T21:57:01.703Z",
+        "updated_at": "2023-08-31T15:54:24.470Z",
+        "parent_id": "a11fd429-5b83-474b-83e2-3acc35e2dfce",
+        "teacher_id": "ba687fec-b0e6-4e32-842b-dd7a9364c986"
+      },
+      {
+        "id": "bce8cdd6-3007-45d5-860f-e73a328c3a3c",
+        "topic": "Student Progress Report",
+        "message": "Good news! Your child has shown great improvement in their studies.",
+        "date_time": "2023-08-31T09:39:37.994Z",
+        "created_at": "2023-08-31T17:03:38.974Z",
+        "updated_at": "2023-08-31T12:41:36.128Z",
+        "parent_id": "4c6887d6-c4da-489a-b216-23aa8707d5d9",
+        "teacher_id": "28105db4-2a52-403f-bc35-c4499753a52e"
+      },
+      {
+        "id": "a5b18089-ab6a-467b-8265-2328d9bf64eb",
+        "topic": "Extracurricular Activities",
+        "message": "Join our after-school club to explore your artistic talents.",
+        "date_time": "2023-08-30T21:43:43.828Z",
+        "created_at": "2023-08-31T07:03:58.937Z",
+        "updated_at": "2023-08-31T14:21:55.311Z",
+        "parent_id": "79f21ae2-630b-472f-b489-2e3b730553e4",
+        "teacher_id": "2b71ed55-6d82-49d0-acf3-11e9356d5856"
+      },
+      {
+        "id": "465179f4-ae08-4f9b-9d8e-684db7d3232f",
+        "topic": "Academic Support",
+        "message": "Need help with homework? Our tutors are available for assistance.",
+        "date_time": "2023-08-31T14:54:54.616Z",
+        "created_at": "2023-08-31T14:16:29.566Z",
+        "updated_at": "2023-08-31T14:47:51.892Z",
+        "parent_id": "79f21ae2-630b-472f-b489-2e3b730553e4",
+        "teacher_id": "9e2ad3e4-e171-4c95-8e96-b204c2a0f36e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8a18ae05-8d21-4b86-8ad2-532a63a137f2",
+        "email": "Lamar20@hotmail.com",
+        "firstName": "Caleigh",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/523.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1236766f-743e-4d4a-9e87-841db6fb506d",
+        "email": "Esmeralda.Pagac@yahoo.com",
+        "firstName": "Edgar",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79972934",
+        "tenantId": null
+      },
+      {
+        "reference": "e859e0ef-5ffe-4ef7-87a4-301731afbb60",
+        "email": "Jean12@gmail.com",
+        "firstName": "Alvina",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4629707",
+        "tenantId": null
+      },
+      {
+        "reference": "2a0ba82e-f201-46ff-a07a-bfdfc258579b",
+        "email": "Elvis52@yahoo.com",
+        "firstName": "Retta",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/450.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "616a4638-6609-411a-8bd2-8c1e90f2d6f1",
+        "email": "Celine25@yahoo.com",
+        "firstName": "Marianna",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10960257",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "5e3140de-7c08-4514-865c-507a1c52b0a5",
+        "subject": "Mathematics",
+        "qualification": "Master's degree in Education",
+        "experience": 13071,
+        "created_at": "2023-08-31T04:07:32.179Z",
+        "updated_at": "2023-08-31T07:51:16.170Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4260058a-de56-49b0-8558-0c58597c832d",
+        "subject": "English",
+        "qualification": "Bachelor's degree in Mathematics",
+        "experience": 18456,
+        "created_at": "2023-08-31T09:37:31.299Z",
+        "updated_at": "2023-08-31T06:15:15.866Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "965d5818-f231-4c99-a950-8b3f0002d613",
+        "subject": "Science",
+        "qualification": "Ph.D. in English Literature",
+        "experience": 14246,
+        "created_at": "2023-08-31T00:25:13.741Z",
+        "updated_at": "2023-08-31T07:34:07.220Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4b1146-f5d6-4c71-9f92-accd436c5279",
+        "subject": "History",
+        "qualification": "Certified Science teacher",
+        "experience": 85402,
+        "created_at": "2023-08-31T06:22:14.781Z",
+        "updated_at": "2023-08-31T18:37:37.681Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87f428d6-8bf0-4dd3-ba81-3a96d5811b75",
+        "subject": "Art",
+        "qualification": "Experienced History teacher",
+        "experience": 91249,
+        "created_at": "2023-08-31T00:05:32.151Z",
+        "updated_at": "2023-08-31T05:51:25.021Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "147d9fdd-75b5-429c-b842-d00317e55f3f",
+        "grade": 18073,
+        "performance_data": "Top performer in mathematics",
+        "routine": "Attends morning classes",
+        "created_at": "2023-08-30T19:30:20.502Z",
+        "updated_at": "2023-08-31T12:57:12.811Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e81ac30-b5ff-4223-bb8b-131496d3d66a",
+        "grade": 17360,
+        "performance_data": "Award-winning science project",
+        "routine": "Participates in sports practice in the afternoon",
+        "created_at": "2023-08-31T01:32:11.675Z",
+        "updated_at": "2023-08-31T06:30:48.493Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f9cabde-0389-4c7d-aff1-4fca7b0e4ad1",
+        "grade": 44335,
+        "performance_data": "Published author of a poetry book",
+        "routine": "Attends tutoring sessions after school",
+        "created_at": "2023-08-31T09:58:24.923Z",
+        "updated_at": "2023-08-31T12:04:16.488Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c2d0df9-996b-425c-a78d-9fbb2e9de7be",
+        "grade": 30870,
+        "performance_data": "Outstanding academic achievements",
+        "routine": "Completes homework assignments regularly",
+        "created_at": "2023-08-30T22:40:54.370Z",
+        "updated_at": "2023-08-31T01:11:50.664Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d5d0ce0-9f40-483e-8aa3-d4c06bef7cec",
+        "grade": 27670,
+        "performance_data": "Active participant in extracurricular activities",
+        "routine": "Engages in community service activities",
+        "created_at": "2023-08-30T20:55:43.225Z",
+        "updated_at": "2023-08-31T01:39:37.783Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "3d7f7939-5e68-44d0-a73c-03568c1d1cfa",
+        "relationship": "Mother",
+        "contact_number": "123-456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T05:26:47.355Z",
+        "updated_at": "2023-08-31T01:46:15.957Z",
+        "student_id": "8e81ac30-b5ff-4223-bb8b-131496d3d66a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f64e5506-2c2c-4b15-985f-683ec0008e46",
+        "relationship": "Father",
+        "contact_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T13:10:58.869Z",
+        "updated_at": "2023-08-31T17:10:21.462Z",
+        "student_id": "8e81ac30-b5ff-4223-bb8b-131496d3d66a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb45596a-4a61-45bf-90cb-ac4b035be84d",
+        "relationship": "Guardian",
+        "contact_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-30T22:08:53.828Z",
+        "updated_at": "2023-08-30T20:53:58.280Z",
+        "student_id": "147d9fdd-75b5-429c-b842-d00317e55f3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "514feafe-c243-43af-9fa7-aa5aa771f0b7",
+        "relationship": "Step-parent",
+        "contact_number": "888-555-9999",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-30T20:27:18.713Z",
+        "updated_at": "2023-08-30T20:03:44.007Z",
+        "student_id": "8e81ac30-b5ff-4223-bb8b-131496d3d66a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3457c4ca-b691-4980-b9f5-5737c9e3d627",
+        "relationship": "Grandparent",
+        "contact_number": "777-888-5555",
+        "address": "555 Pine Road",
+        "created_at": "2023-08-31T02:03:36.043Z",
+        "updated_at": "2023-08-31T18:09:02.175Z",
+        "student_id": "2c2d0df9-996b-425c-a78d-9fbb2e9de7be",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "2f025e09-4125-4a19-85e1-ba079bc8597d",
+        "topic": "Upcoming school events",
+        "message": "Dear parents, we would like to inform you about the upcoming school events.",
+        "date_time": "2023-08-30T19:25:47.766Z",
+        "created_at": "2023-08-31T04:22:20.069Z",
+        "updated_at": "2023-08-31T09:52:46.800Z",
+        "parent_id": "514feafe-c243-43af-9fa7-aa5aa771f0b7",
+        "teacher_id": "4260058a-de56-49b0-8558-0c58597c832d"
+      },
+      {
+        "id": "4eb13dc4-c0db-4340-b53d-cdde22088ec4",
+        "topic": "Parent-teacher conference",
+        "message": "We invite you to attend the parent-teacher conference to discuss your child's progress.",
+        "date_time": "2023-08-31T07:33:42.799Z",
+        "created_at": "2023-08-30T22:08:53.741Z",
+        "updated_at": "2023-08-31T03:36:47.063Z",
+        "parent_id": "3457c4ca-b691-4980-b9f5-5737c9e3d627",
+        "teacher_id": "5e3140de-7c08-4514-865c-507a1c52b0a5"
+      },
+      {
+        "id": "d2fbcf35-3b90-447d-9e82-9d473c38fc6c",
+        "topic": "Student progress update",
+        "message": "We wanted to update you on your child's performance and achievements.",
+        "date_time": "2023-08-31T00:02:23.949Z",
+        "created_at": "2023-08-31T03:50:17.498Z",
+        "updated_at": "2023-08-31T02:39:43.647Z",
+        "parent_id": "f64e5506-2c2c-4b15-985f-683ec0008e46",
+        "teacher_id": "6f4b1146-f5d6-4c71-9f92-accd436c5279"
+      },
+      {
+        "id": "2b33576a-d627-4d56-a747-b7583c1f2cd8",
+        "topic": "Extracurricular activities",
+        "message": "Please encourage your child to participate in extracurricular activities.",
+        "date_time": "2023-08-31T04:07:30.347Z",
+        "created_at": "2023-08-31T09:10:55.855Z",
+        "updated_at": "2023-08-30T20:04:57.037Z",
+        "parent_id": "3457c4ca-b691-4980-b9f5-5737c9e3d627",
+        "teacher_id": "87f428d6-8bf0-4dd3-ba81-3a96d5811b75"
+      },
+      {
+        "id": "031fa197-d9f9-416f-8f9a-720969855cd4",
+        "topic": "School policy changes",
+        "message": "There have been some changes in the school policies that we would like to inform you about.",
+        "date_time": "2023-08-31T17:35:25.747Z",
+        "created_at": "2023-08-31T16:27:38.503Z",
+        "updated_at": "2023-08-31T04:24:38.123Z",
+        "parent_id": "514feafe-c243-43af-9fa7-aa5aa771f0b7",
+        "teacher_id": "4260058a-de56-49b0-8558-0c58597c832d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ff3c929d-338b-47a8-acb3-3c08e93603b9",
+        "email": "Forrest.Mills72@yahoo.com",
+        "firstName": "Eulah",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/382.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "960936d4-6c57-4046-b524-221b6eed7773",
+        "email": "Kelvin.Stamm97@yahoo.com",
+        "firstName": "Leonel",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63de82ee-452b-44fe-841e-a63bbdaecaa9",
+        "email": "Layla.Hilll@hotmail.com",
+        "firstName": "Elmer",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/536.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60257acb-512f-4306-a5a2-e4d7ddc002cb",
+        "email": "Darlene.Schinner-OConnell38@gmail.com",
+        "firstName": "Kailey",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/924.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "411f233c-2981-42d0-a591-a2f4cbe96df0",
+        "email": "Natalie_Lubowitz4@hotmail.com",
+        "firstName": "Antone",
+        "lastName": "Runte-Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42944714",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "65df5606-8c0b-4dcf-a465-14e8e0e7a9b7",
+        "subject": "Mathematics",
+        "qualification": "Master's degree in Education",
+        "experience": 70523,
+        "created_at": "2023-08-30T23:59:34.189Z",
+        "updated_at": "2023-08-30T21:49:17.410Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e79e4d9b-cfd5-4f60-8e77-23331b0011a2",
+        "subject": "English Literature",
+        "qualification": "Bachelor's degree in Mathematics",
+        "experience": 85891,
+        "created_at": "2023-08-31T01:56:03.640Z",
+        "updated_at": "2023-08-31T01:16:34.914Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a52351cc-1d6b-4188-8356-30eee60b6896",
+        "subject": "Science",
+        "qualification": "Ph.D. in English Literature",
+        "experience": 12119,
+        "created_at": "2023-08-31T05:13:09.446Z",
+        "updated_at": "2023-08-30T22:33:47.775Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9fe3e0d-789e-4deb-a425-cfef6c88aafc",
+        "subject": "History",
+        "qualification": "Bachelor's degree in Science",
+        "experience": 22113,
+        "created_at": "2023-08-31T03:17:26.721Z",
+        "updated_at": "2023-08-31T10:36:39.360Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c07a7b91-af61-4ab1-af29-d924e07e8041",
+        "subject": "Computer Science",
+        "qualification": "Master's degree in History",
+        "experience": 25909,
+        "created_at": "2023-08-31T05:23:42.291Z",
+        "updated_at": "2023-08-31T12:09:36.039Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "5cdcd3a6-4df8-4e72-8879-52f75d09a0eb",
+        "grade": 36328,
+        "performance_data": "Excellent academic performance",
+        "routine": "Attends all classes punctually",
+        "created_at": "2023-08-31T15:31:34.024Z",
+        "updated_at": "2023-08-31T06:04:37.803Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc5a7e56-ec7b-46da-88bd-081ad4f03704",
+        "grade": 50509,
+        "performance_data": "Active participation in extracurricular activities",
+        "routine": "Dedicated to completing homework and assignments",
+        "created_at": "2023-08-31T10:24:40.576Z",
+        "updated_at": "2023-08-31T10:47:59.194Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51101950-8a4d-46e1-bbc7-c09a23c50817",
+        "grade": 34101,
+        "performance_data": "Leadership qualities and strong interpersonal skills",
+        "routine": "Active involvement in class discussions",
+        "created_at": "2023-08-31T09:31:54.349Z",
+        "updated_at": "2023-08-31T00:11:35.689Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4de4f8dd-2b05-4d69-bbaa-26b6b14d2434",
+        "grade": 16707,
+        "performance_data": "Consistent improvement in academic performance",
+        "routine": "Participates in sports and cultural events",
+        "created_at": "2023-08-31T12:18:01.471Z",
+        "updated_at": "2023-08-31T14:04:36.708Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c33e77b-3db6-4812-8388-75a28c6943ea",
+        "grade": 80362,
+        "performance_data": "Creative and innovative thinking",
+        "routine": "Maintains a well-balanced study schedule",
+        "created_at": "2023-08-31T04:58:41.605Z",
+        "updated_at": "2023-08-30T23:13:21.065Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "4921dbe8-d6fc-4f9d-aaec-32999fbb3217",
+        "relationship": "Father",
+        "contact_number": "+1 123-456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T14:23:08.744Z",
+        "updated_at": "2023-08-31T09:58:34.769Z",
+        "student_id": "4de4f8dd-2b05-4d69-bbaa-26b6b14d2434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc865e60-192a-4ac0-9e69-9efebdfdf490",
+        "relationship": "Mother",
+        "contact_number": "+1 987-654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T12:30:14.228Z",
+        "updated_at": "2023-08-31T12:09:13.019Z",
+        "student_id": "4de4f8dd-2b05-4d69-bbaa-26b6b14d2434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e620a6b6-6cb8-4ebc-910b-523b686bb085",
+        "relationship": "Guardian",
+        "contact_number": "+1 555-123-4567",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-31T03:31:12.717Z",
+        "updated_at": "2023-08-30T19:58:44.086Z",
+        "student_id": "4de4f8dd-2b05-4d69-bbaa-26b6b14d2434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68fd07be-77da-445b-bd88-4cf33458ad17",
+        "relationship": "Step-parent",
+        "contact_number": "+1 888-999-0000",
+        "address": "321 Pine Road",
+        "created_at": "2023-08-31T09:10:26.937Z",
+        "updated_at": "2023-08-31T08:16:23.910Z",
+        "student_id": "5cdcd3a6-4df8-4e72-8879-52f75d09a0eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e51956a2-0150-4e1c-9f1c-fbc4b60e8436",
+        "relationship": "Grandparent",
+        "contact_number": "+1 777-888-9999",
+        "address": "987 Maple Court",
+        "created_at": "2023-08-31T07:34:42.527Z",
+        "updated_at": "2023-08-31T05:06:07.932Z",
+        "student_id": "5cdcd3a6-4df8-4e72-8879-52f75d09a0eb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "cf5d1df6-c3be-4ad0-a44e-f48a0c709804",
+        "topic": "Upcoming school events",
+        "message": "Dear parents, we would like to inform you about the upcoming school carnival.",
+        "date_time": "2023-08-31T09:27:17.723Z",
+        "created_at": "2023-08-31T01:55:51.594Z",
+        "updated_at": "2023-08-31T07:32:34.359Z",
+        "parent_id": "68fd07be-77da-445b-bd88-4cf33458ad17",
+        "teacher_id": "a52351cc-1d6b-4188-8356-30eee60b6896"
+      },
+      {
+        "id": "b7b8fcad-0e1c-45a6-8aad-ad884111d070",
+        "topic": "Student progress and performance",
+        "message": "We are pleased to share that your child has shown significant improvement in their academic performance.",
+        "date_time": "2023-08-31T01:02:55.530Z",
+        "created_at": "2023-08-31T14:22:27.336Z",
+        "updated_at": "2023-08-31T11:37:37.157Z",
+        "parent_id": "68fd07be-77da-445b-bd88-4cf33458ad17",
+        "teacher_id": "e79e4d9b-cfd5-4f60-8e77-23331b0011a2"
+      },
+      {
+        "id": "ce5479f1-9ade-4845-b4cd-49e6b7539c84",
+        "topic": "Curriculum updates and changes",
+        "message": "Please note that there will be a change in the schedule for next week's classes.",
+        "date_time": "2023-08-31T11:10:09.157Z",
+        "created_at": "2023-08-31T15:10:12.519Z",
+        "updated_at": "2023-08-31T07:04:01.152Z",
+        "parent_id": "e51956a2-0150-4e1c-9f1c-fbc4b60e8436",
+        "teacher_id": "65df5606-8c0b-4dcf-a465-14e8e0e7a9b7"
+      },
+      {
+        "id": "b1dc8f5b-d447-464f-b88c-457ddabf3524",
+        "topic": "Parent-teacher meetings",
+        "message": "We invite you to attend the parent-teacher meeting scheduled for next Friday.",
+        "date_time": "2023-08-31T11:01:55.504Z",
+        "created_at": "2023-08-31T17:47:24.183Z",
+        "updated_at": "2023-08-31T11:14:20.978Z",
+        "parent_id": "4921dbe8-d6fc-4f9d-aaec-32999fbb3217",
+        "teacher_id": "c07a7b91-af61-4ab1-af29-d924e07e8041"
+      },
+      {
+        "id": "b14deecc-a41b-495c-b550-8bba06a128b0",
+        "topic": "Extracurricular activity opportunities",
+        "message": "Exciting opportunities for students to participate in various sports and cultural activities are now available.",
+        "date_time": "2023-08-31T11:06:53.230Z",
+        "created_at": "2023-08-31T00:56:05.423Z",
+        "updated_at": "2023-08-31T10:49:11.269Z",
+        "parent_id": "e51956a2-0150-4e1c-9f1c-fbc4b60e8436",
+        "teacher_id": "e79e4d9b-cfd5-4f60-8e77-23331b0011a2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d97f64e-2f4d-4495-93d6-21cbc83ba742",
+        "email": "Ella99@gmail.com",
+        "firstName": "Giovanny",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1172.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66f0853e-56a3-47e9-af06-98b2b8504c79",
+        "email": "Winnifred.Collier52@gmail.com",
+        "firstName": "Jaycee",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1077.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "38a22ed4-d2bd-4097-b006-3a7d92d26a3e",
+        "email": "Lera_Hartmann22@hotmail.com",
+        "firstName": "Ludwig",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c85af973-85bb-413d-9a5c-b3e084fc7dd5",
+        "email": "Anjali3@hotmail.com",
+        "firstName": "Tiffany",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75135147",
+        "tenantId": null
+      },
+      {
+        "reference": "2d774cd9-c865-4c35-b42a-d15a93abecbe",
+        "email": "Marques_Lesch@gmail.com",
+        "firstName": "Ludie",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32483939",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "f3da1e10-e1c0-4559-834f-884aa130c6e4",
+        "subject": "Mathematics",
+        "qualification": "Master's degree in Education",
+        "experience": 37537,
+        "created_at": "2023-08-31T08:17:09.968Z",
+        "updated_at": "2023-08-31T08:14:27.922Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55e453a5-1632-43e7-aa83-0cd2803a7d58",
+        "subject": "Science",
+        "qualification": "Bachelor's degree in Science",
+        "experience": 35262,
+        "created_at": "2023-08-31T02:36:15.105Z",
+        "updated_at": "2023-08-31T15:36:05.709Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b233532-50d9-4b04-80f6-813b82e7a1dc",
+        "subject": "English",
+        "qualification": "Certified teacher with 10 years of experience",
+        "experience": 39027,
+        "created_at": "2023-08-31T18:29:46.129Z",
+        "updated_at": "2023-08-31T00:28:59.855Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8e4c85c-3591-414b-9531-1b478f7aab08",
+        "subject": "History",
+        "qualification": "Specialized training in STEM education",
+        "experience": 2161,
+        "created_at": "2023-08-31T11:49:24.285Z",
+        "updated_at": "2023-08-30T22:13:11.348Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9242d7b-21ea-488b-8d06-515fbd32b759",
+        "subject": "Art",
+        "qualification": "Published author in the field of Literature",
+        "experience": 38491,
+        "created_at": "2023-08-31T12:14:24.326Z",
+        "updated_at": "2023-08-31T02:07:35.050Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "80b9611f-9440-440b-9bb3-94f0391e5b86",
+        "grade": 9014,
+        "performance_data": "Excellent academic record with consistent top grades",
+        "routine": "Attends classes from 8:00 AM to 3:00 PM",
+        "created_at": "2023-08-31T17:05:02.829Z",
+        "updated_at": "2023-08-30T19:28:25.619Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1447777d-a3f2-41b6-97f0-10b32dff227d",
+        "grade": 42512,
+        "performance_data": "Active participation in extracurricular activities",
+        "routine": "Participates in after-school clubs and sports",
+        "created_at": "2023-08-31T07:08:40.468Z",
+        "updated_at": "2023-08-31T17:35:12.695Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46360fc2-4c7a-4d87-8e5b-3f5a396d0c0c",
+        "grade": 34240,
+        "performance_data": "Recipient of multiple awards for leadership and sports",
+        "routine": "Dedicates time for self-study and homework",
+        "created_at": "2023-08-31T10:16:32.468Z",
+        "updated_at": "2023-08-31T09:37:59.657Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8006b342-bf0b-469e-8ad0-f0878d536bf0",
+        "grade": 56228,
+        "performance_data": "Published research paper in a renowned journal",
+        "routine": "Engages in community service on weekends",
+        "created_at": "2023-08-31T03:31:05.900Z",
+        "updated_at": "2023-08-31T11:31:06.401Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1306baf-db46-4bdb-bbf5-e164fecaff5d",
+        "grade": 95383,
+        "performance_data": "Internship experience at a leading company",
+        "routine": "Attends music lessons every Wednesday",
+        "created_at": "2023-08-31T10:44:07.028Z",
+        "updated_at": "2023-08-30T20:27:59.384Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "614bf8e2-60f5-497e-b862-2bb815a46060",
+        "relationship": "Father",
+        "contact_number": "(123) 456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-30T22:44:34.655Z",
+        "updated_at": "2023-08-31T18:06:43.298Z",
+        "student_id": "8006b342-bf0b-469e-8ad0-f0878d536bf0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae6190a5-c205-4a71-be07-4f1308ad8565",
+        "relationship": "Mother",
+        "contact_number": "(987) 654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-30T20:48:49.830Z",
+        "updated_at": "2023-08-31T14:56:27.148Z",
+        "student_id": "1447777d-a3f2-41b6-97f0-10b32dff227d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74bd3c77-f3bf-4fd7-8038-f50172ac95a1",
+        "relationship": "Guardian",
+        "contact_number": "(555) 123-4567",
+        "address": "789 Oak Drive",
+        "created_at": "2023-08-31T10:10:42.090Z",
+        "updated_at": "2023-08-30T18:52:44.962Z",
+        "student_id": "46360fc2-4c7a-4d87-8e5b-3f5a396d0c0c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec7a7aa4-52d1-4302-9a58-b0686a9fac27",
+        "relationship": "Step-parent",
+        "contact_number": "(999) 888-7777",
+        "address": "321 Pine Lane",
+        "created_at": "2023-08-31T17:40:41.719Z",
+        "updated_at": "2023-08-31T01:56:20.112Z",
+        "student_id": "b1306baf-db46-4bdb-bbf5-e164fecaff5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "511250d6-03fc-48fe-ab43-546edff0a0df",
+        "relationship": "Grandparent",
+        "contact_number": "(444) 555-6666",
+        "address": "987 Maple Court",
+        "created_at": "2023-08-31T15:00:38.779Z",
+        "updated_at": "2023-08-31T01:15:00.857Z",
+        "student_id": "8006b342-bf0b-469e-8ad0-f0878d536bf0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "174c8087-78a2-4ef5-82c4-a12b3c20ce1b",
+        "topic": "Upcoming school events",
+        "message": "Hello, I wanted to discuss the upcoming school events.",
+        "date_time": "2023-08-31T10:49:13.576Z",
+        "created_at": "2023-08-30T20:09:31.696Z",
+        "updated_at": "2023-08-31T10:56:49.163Z",
+        "parent_id": "74bd3c77-f3bf-4fd7-8038-f50172ac95a1",
+        "teacher_id": "55e453a5-1632-43e7-aa83-0cd2803a7d58"
+      },
+      {
+        "id": "5be1fd65-04aa-40e5-bf04-407c3101a2de",
+        "topic": "Parent-teacher conference",
+        "message": "I would like to schedule a parent-teacher conference.",
+        "date_time": "2023-08-31T02:51:45.566Z",
+        "created_at": "2023-08-31T14:02:24.445Z",
+        "updated_at": "2023-08-31T14:12:34.942Z",
+        "parent_id": "511250d6-03fc-48fe-ab43-546edff0a0df",
+        "teacher_id": "f9242d7b-21ea-488b-8d06-515fbd32b759"
+      },
+      {
+        "id": "4d08bbb7-67ce-4006-97b4-d1f91d29eaf4",
+        "topic": "Student progress report",
+        "message": "I received my child's progress report and have some questions.",
+        "date_time": "2023-08-31T17:05:48.011Z",
+        "created_at": "2023-08-31T06:22:13.591Z",
+        "updated_at": "2023-08-31T14:34:40.573Z",
+        "parent_id": "74bd3c77-f3bf-4fd7-8038-f50172ac95a1",
+        "teacher_id": "f3da1e10-e1c0-4559-834f-884aa130c6e4"
+      },
+      {
+        "id": "d15e5629-bf19-4512-b6db-0c6a6a669e71",
+        "topic": "School policies and procedures",
+        "message": "Can you provide information about the school policies and procedures?",
+        "date_time": "2023-08-31T13:47:14.410Z",
+        "created_at": "2023-08-31T09:06:28.880Z",
+        "updated_at": "2023-08-30T19:07:28.146Z",
+        "parent_id": "614bf8e2-60f5-497e-b862-2bb815a46060",
+        "teacher_id": "9b233532-50d9-4b04-80f6-813b82e7a1dc"
+      },
+      {
+        "id": "a6462125-56bf-4736-ab1d-f6bb46b42080",
+        "topic": "Extracurricular opportunities",
+        "message": "What extracurricular opportunities are available for my child?",
+        "date_time": "2023-08-31T12:11:46.497Z",
+        "created_at": "2023-08-31T12:58:20.975Z",
+        "updated_at": "2023-08-31T01:16:56.804Z",
+        "parent_id": "74bd3c77-f3bf-4fd7-8038-f50172ac95a1",
+        "teacher_id": "f9242d7b-21ea-488b-8d06-515fbd32b759"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f8423ec4-0997-4e1a-8cab-65aae1f12eb3",
+        "email": "Damaris_Weimann39@gmail.com",
+        "firstName": "Kariane",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30488655",
+        "tenantId": null
+      },
+      {
+        "reference": "8496eb89-e8c0-47aa-9b2b-2699169fa7b0",
+        "email": "Jerry46@gmail.com",
+        "firstName": "Matilda",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31940694",
+        "tenantId": null
+      },
+      {
+        "reference": "0ff2adb0-7a77-44db-b1c0-2875dcfe6070",
+        "email": "Trever.Doyle23@gmail.com",
+        "firstName": "Wade",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/89.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "295ed1c0-92eb-4f73-90f5-ab062bdb1998",
+        "email": "Yesenia_Wilderman45@gmail.com",
+        "firstName": "Ardella",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b1156a3-fde9-4537-bd15-2ef8536ff65a",
+        "email": "Alexie_Brakus7@yahoo.com",
+        "firstName": "Enoch",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/964.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "32fafc1d-e0ba-4278-8d70-096ca0c043d6",
+        "subject": "Mathematics",
+        "qualification": "Bachelor's degree in Education",
+        "experience": 29883,
+        "created_at": "2023-08-31T13:45:50.252Z",
+        "updated_at": "2023-08-30T21:55:39.165Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd88f5c7-4b28-4d12-b7e9-407bdcd00e1d",
+        "subject": "Science",
+        "qualification": "Master's degree in Mathematics",
+        "experience": 95507,
+        "created_at": "2023-08-31T03:52:08.285Z",
+        "updated_at": "2023-08-31T14:50:17.305Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6514314a-4b53-4e2f-9e61-0fdb20801ff3",
+        "subject": "English",
+        "qualification": "PhD in Physics",
+        "experience": 58173,
+        "created_at": "2023-08-31T04:22:31.801Z",
+        "updated_at": "2023-08-31T05:42:55.162Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67a81262-f9a1-46c3-857f-f1b872c59a23",
+        "subject": "History",
+        "qualification": "Teaching certification in English",
+        "experience": 99573,
+        "created_at": "2023-08-30T18:55:50.521Z",
+        "updated_at": "2023-08-31T12:52:49.050Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db51e3be-4978-464f-b50a-1f201135b78c",
+        "subject": "Art",
+        "qualification": "Specialization in Fine Arts",
+        "experience": 11522,
+        "created_at": "2023-08-30T21:26:55.981Z",
+        "updated_at": "2023-08-31T10:14:55.764Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "41aa1f0a-5b2a-47ad-8fee-2b11897a0254",
+        "grade": 28666,
+        "performance_data": "Excellent",
+        "routine": "Morning classes followed by extracurricular activities.",
+        "created_at": "2023-08-30T21:15:48.363Z",
+        "updated_at": "2023-08-30T22:20:21.310Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acb4a084-f35c-4ff4-83cf-5103f168b3ea",
+        "grade": 44843,
+        "performance_data": "Above Average",
+        "routine": "Afternoon classes with study sessions in the evening.",
+        "created_at": "2023-08-31T06:30:02.999Z",
+        "updated_at": "2023-08-31T13:56:50.441Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48e2d8f9-b12a-4b3a-93df-3b8088b689f1",
+        "grade": 31977,
+        "performance_data": "Average",
+        "routine": "Flexible schedule with personalized learning.",
+        "created_at": "2023-08-31T13:33:57.450Z",
+        "updated_at": "2023-08-31T13:34:40.123Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9dd6df7-da6c-448c-8d98-984777848114",
+        "grade": 95102,
+        "performance_data": "Below Average",
+        "routine": "Structured timetable with breaks for physical activities.",
+        "created_at": "2023-08-31T11:48:00.778Z",
+        "updated_at": "2023-08-31T14:50:53.238Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a36dd2c-331f-411e-811e-8936c856d2be",
+        "grade": 94377,
+        "performance_data": "Poor",
+        "routine": "Online classes with interactive assignments.",
+        "created_at": "2023-08-30T22:14:44.716Z",
+        "updated_at": "2023-08-31T16:25:18.189Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "0f4b553b-e8f3-4672-8e6c-98578d8a6951",
+        "relationship": "Father",
+        "contact_number": "+1 123-456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-30T20:53:08.775Z",
+        "updated_at": "2023-08-31T16:53:04.838Z",
+        "student_id": "48e2d8f9-b12a-4b3a-93df-3b8088b689f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "539e0e7b-df9a-48af-a3fb-e7edbbd222c3",
+        "relationship": "Mother",
+        "contact_number": "+1 987-654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T14:42:39.927Z",
+        "updated_at": "2023-08-31T15:35:12.141Z",
+        "student_id": "acb4a084-f35c-4ff4-83cf-5103f168b3ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fdfdafe-4375-4572-956b-3f441fdd2027",
+        "relationship": "Guardian",
+        "contact_number": "+1 555-123-4567",
+        "address": "789 Oak Drive",
+        "created_at": "2023-08-31T03:06:22.555Z",
+        "updated_at": "2023-08-31T03:08:56.263Z",
+        "student_id": "acb4a084-f35c-4ff4-83cf-5103f168b3ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab69ffe5-7cfc-4b20-923b-3dc91bc5cc7f",
+        "relationship": "Step-parent",
+        "contact_number": "+1 888-999-0000",
+        "address": "321 Pine Lane",
+        "created_at": "2023-08-31T17:57:04.423Z",
+        "updated_at": "2023-08-31T06:45:33.099Z",
+        "student_id": "48e2d8f9-b12a-4b3a-93df-3b8088b689f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42c79bf9-27d3-4923-9d21-cf2d8ad22a02",
+        "relationship": "Grandparent",
+        "contact_number": "+1 777-222-3333",
+        "address": "555 Maple Road",
+        "created_at": "2023-08-31T10:39:57.612Z",
+        "updated_at": "2023-08-30T22:59:00.040Z",
+        "student_id": "48e2d8f9-b12a-4b3a-93df-3b8088b689f1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "43a34980-ee75-4207-b11b-28ba67317d4d",
+        "topic": "Upcoming school event",
+        "message": "Dear parents, we would like to inform you about the upcoming school event.",
+        "date_time": "2023-08-31T05:03:58.263Z",
+        "created_at": "2023-08-31T00:20:22.637Z",
+        "updated_at": "2023-08-31T18:22:16.320Z",
+        "parent_id": "42c79bf9-27d3-4923-9d21-cf2d8ad22a02",
+        "teacher_id": "67a81262-f9a1-46c3-857f-f1b872c59a23"
+      },
+      {
+        "id": "7825b139-990d-4c24-8a4b-8ecc5101ab30",
+        "topic": "Parent-teacher meeting",
+        "message": "Hello, we would like to schedule a parent-teacher meeting to discuss your child's progress.",
+        "date_time": "2023-08-30T19:12:19.216Z",
+        "created_at": "2023-08-31T04:37:37.803Z",
+        "updated_at": "2023-08-31T17:40:33.522Z",
+        "parent_id": "4fdfdafe-4375-4572-956b-3f441fdd2027",
+        "teacher_id": "6514314a-4b53-4e2f-9e61-0fdb20801ff3"
+      },
+      {
+        "id": "d6a276f0-1f97-4ca9-92ec-b71b479c53be",
+        "topic": "Student progress update",
+        "message": "Good day! We would like to provide you with an update on your child's performance.",
+        "date_time": "2023-08-31T06:41:08.486Z",
+        "created_at": "2023-08-30T20:48:04.511Z",
+        "updated_at": "2023-08-31T07:18:41.864Z",
+        "parent_id": "539e0e7b-df9a-48af-a3fb-e7edbbd222c3",
+        "teacher_id": "32fafc1d-e0ba-4278-8d70-096ca0c043d6"
+      },
+      {
+        "id": "c88f3229-c995-4de6-ba37-b3a8c02bbcf4",
+        "topic": "Extracurricular activity registration",
+        "message": "Attention students! Registration for extracurricular activities is now open.",
+        "date_time": "2023-08-31T09:26:56.027Z",
+        "created_at": "2023-08-31T02:19:51.958Z",
+        "updated_at": "2023-08-31T16:45:17.810Z",
+        "parent_id": "ab69ffe5-7cfc-4b20-923b-3dc91bc5cc7f",
+        "teacher_id": "bd88f5c7-4b28-4d12-b7e9-407bdcd00e1d"
+      },
+      {
+        "id": "09bc4113-cefc-4b99-a6e6-1c2e5f57c4ce",
+        "topic": "School policy changes",
+        "message": "Important announcement: There have been some changes to the school policies.",
+        "date_time": "2023-08-31T09:17:33.981Z",
+        "created_at": "2023-08-31T02:55:51.161Z",
+        "updated_at": "2023-08-31T06:14:51.258Z",
+        "parent_id": "42c79bf9-27d3-4923-9d21-cf2d8ad22a02",
+        "teacher_id": "6514314a-4b53-4e2f-9e61-0fdb20801ff3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f0d71580-2288-4bd8-bf51-406364f27979",
+        "email": "Athena78@gmail.com",
+        "firstName": "Paige",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/464.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1264562c-2fd4-4687-bc70-3c76f98ceee8",
+        "email": "Mark.Johnson35@hotmail.com",
+        "firstName": "Delfina",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/299.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af5b37d9-e10a-484d-a2e8-6c3c3b5a6292",
+        "email": "Ismael_Welch-Watsica@gmail.com",
+        "firstName": "Uriah",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4ca4eff-e706-443b-a8cf-e379e6228575",
+        "email": "Cole_Dickinson@yahoo.com",
+        "firstName": "Wilbert",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70f2fe93-aee6-485a-97c7-66648709b1dc",
+        "email": "Emanuel26@hotmail.com",
+        "firstName": "Devante",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81767193",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "0db5455b-fd4c-4d37-bc23-ce7a567d83ed",
+        "subject": "Mathematics",
+        "qualification": "Master's in Education",
+        "experience": 17274,
+        "created_at": "2023-08-31T13:00:23.568Z",
+        "updated_at": "2023-08-31T01:01:23.280Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bf2e13d-5302-4de5-b738-705316e1e6e6",
+        "subject": "English",
+        "qualification": "PhD in Literature",
+        "experience": 42899,
+        "created_at": "2023-08-31T05:44:46.489Z",
+        "updated_at": "2023-08-31T11:39:02.111Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb4dee9a-0b70-450e-92ca-4b38ab4386a6",
+        "subject": "Science",
+        "qualification": "Bachelor's in Biology",
+        "experience": 28977,
+        "created_at": "2023-08-31T07:17:19.884Z",
+        "updated_at": "2023-08-31T09:59:46.514Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb58b48c-feb4-4f94-a9a0-63c09828694b",
+        "subject": "History",
+        "qualification": "Specialization in Physics",
+        "experience": 8605,
+        "created_at": "2023-08-31T05:01:54.869Z",
+        "updated_at": "2023-08-30T18:57:16.362Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a8e38ff-7580-4197-9054-e0ae60416158",
+        "subject": "Art",
+        "qualification": "Certified Music Teacher",
+        "experience": 13126,
+        "created_at": "2023-08-31T14:12:15.702Z",
+        "updated_at": "2023-08-30T22:12:00.180Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "287146c5-9d2f-4c89-91b2-dd636e91621c",
+        "grade": 17091,
+        "performance_data": "A+ in all subjects",
+        "routine": "Attends all classes regularly",
+        "created_at": "2023-08-30T22:36:04.057Z",
+        "updated_at": "2023-08-31T10:04:03.128Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91f4210b-c926-4166-ab8f-eb6e327a3d33",
+        "grade": 78860,
+        "performance_data": "Excellent academic record",
+        "routine": "Completes homework on time",
+        "created_at": "2023-08-30T22:50:22.161Z",
+        "updated_at": "2023-08-31T11:03:44.473Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87ea4b69-0767-4ee4-a88d-0a2f9b66beb0",
+        "grade": 31860,
+        "performance_data": "Outstanding extracurricular achievements",
+        "routine": "Participates actively in classroom discussions",
+        "created_at": "2023-08-31T14:21:38.795Z",
+        "updated_at": "2023-08-31T03:42:42.052Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcb001e6-28c9-40f4-b591-f36763c9e8e1",
+        "grade": 90613,
+        "performance_data": "Active participant in school events",
+        "routine": "Engages in sports and cultural activities",
+        "created_at": "2023-08-30T21:52:25.245Z",
+        "updated_at": "2023-08-31T17:28:32.012Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dd8c9c9-75ce-4e39-8a04-e968cab07dad",
+        "grade": 44150,
+        "performance_data": "Highly motivated and dedicated learner",
+        "routine": "Maintains a disciplined and organized approach to studies",
+        "created_at": "2023-08-31T17:48:21.858Z",
+        "updated_at": "2023-08-31T09:06:21.627Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "ccda9700-cbbf-4352-ba8f-2ff22adfaf97",
+        "relationship": "Father",
+        "contact_number": "1234567890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T10:40:58.315Z",
+        "updated_at": "2023-08-31T09:09:38.652Z",
+        "student_id": "287146c5-9d2f-4c89-91b2-dd636e91621c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49d0e813-3e87-481d-ba07-df5eb7215c41",
+        "relationship": "Mother",
+        "contact_number": "9876543210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T15:29:48.402Z",
+        "updated_at": "2023-08-30T20:20:32.126Z",
+        "student_id": "91f4210b-c926-4166-ab8f-eb6e327a3d33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "562b97a7-f587-4598-86f9-543cb57693e1",
+        "relationship": "Guardian",
+        "contact_number": "5555555555",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-31T04:47:49.962Z",
+        "updated_at": "2023-08-30T19:42:14.987Z",
+        "student_id": "2dd8c9c9-75ce-4e39-8a04-e968cab07dad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beb0d3cf-5ab9-4a9a-b960-67976f016052",
+        "relationship": "Step-parent",
+        "contact_number": "1111111111",
+        "address": "321 Maple Road",
+        "created_at": "2023-08-31T03:03:27.318Z",
+        "updated_at": "2023-08-30T22:52:10.597Z",
+        "student_id": "2dd8c9c9-75ce-4e39-8a04-e968cab07dad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7125579-b08e-4328-a506-c9980ce9d55a",
+        "relationship": "Grandparent",
+        "contact_number": "9999999999",
+        "address": "555 Pine Boulevard",
+        "created_at": "2023-08-31T03:21:24.674Z",
+        "updated_at": "2023-08-31T12:08:50.692Z",
+        "student_id": "91f4210b-c926-4166-ab8f-eb6e327a3d33",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "ad7b4826-fd38-4dcc-806e-e3abf55bcb23",
+        "topic": "Upcoming school events",
+        "message": "Dear parents, we would like to inform you about the upcoming school carnival.",
+        "date_time": "2023-08-30T18:50:43.855Z",
+        "created_at": "2023-08-31T01:11:59.378Z",
+        "updated_at": "2023-08-30T19:04:57.983Z",
+        "parent_id": "562b97a7-f587-4598-86f9-543cb57693e1",
+        "teacher_id": "0db5455b-fd4c-4d37-bc23-ce7a567d83ed"
+      },
+      {
+        "id": "5bfc09a5-90f3-4543-a849-4532f9743e22",
+        "topic": "Parent-teacher meeting",
+        "message": "Hello, we would like to schedule a meeting to discuss your child's progress.",
+        "date_time": "2023-08-31T09:44:36.420Z",
+        "created_at": "2023-08-31T16:10:03.108Z",
+        "updated_at": "2023-08-31T06:41:56.301Z",
+        "parent_id": "d7125579-b08e-4328-a506-c9980ce9d55a",
+        "teacher_id": "0bf2e13d-5302-4de5-b738-705316e1e6e6"
+      },
+      {
+        "id": "a793924e-9e31-47a1-9270-7c9c3a8fc734",
+        "topic": "Student progress report",
+        "message": "Dear parents, please find attached your child's progress report for this semester.",
+        "date_time": "2023-08-31T13:31:51.431Z",
+        "created_at": "2023-08-31T06:44:58.861Z",
+        "updated_at": "2023-08-31T09:41:29.187Z",
+        "parent_id": "ccda9700-cbbf-4352-ba8f-2ff22adfaf97",
+        "teacher_id": "0bf2e13d-5302-4de5-b738-705316e1e6e6"
+      },
+      {
+        "id": "bee79b2c-f3e6-47b0-b3a1-de0aaaa5a0b9",
+        "topic": "Extracurricular activities",
+        "message": "We are excited to announce the upcoming dance competition for our students.",
+        "date_time": "2023-08-31T12:22:30.230Z",
+        "created_at": "2023-08-31T11:56:48.207Z",
+        "updated_at": "2023-08-31T11:42:12.162Z",
+        "parent_id": "562b97a7-f587-4598-86f9-543cb57693e1",
+        "teacher_id": "cb58b48c-feb4-4f94-a9a0-63c09828694b"
+      },
+      {
+        "id": "9efd0296-4f14-4a4a-a614-57c9b9326b6c",
+        "topic": "School policies and guidelines",
+        "message": "Please take a moment to review the updated school policies and guidelines.",
+        "date_time": "2023-08-30T21:16:26.778Z",
+        "created_at": "2023-08-31T11:38:32.731Z",
+        "updated_at": "2023-08-30T18:48:42.957Z",
+        "parent_id": "562b97a7-f587-4598-86f9-543cb57693e1",
+        "teacher_id": "8a8e38ff-7580-4197-9054-e0ae60416158"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8c4ec285-f176-4a4a-86b2-16a38caab30f",
+        "email": "Korey_Pfannerstill17@gmail.com",
+        "firstName": "Nils",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53076275",
+        "tenantId": null
+      },
+      {
+        "reference": "15a16ad7-71b6-4436-8b2b-c63978d4af30",
+        "email": "Leanne72@hotmail.com",
+        "firstName": "Elda",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/724.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "031236bc-9286-4e37-833a-11f6899e44d5",
+        "email": "Antonina.Mann@gmail.com",
+        "firstName": "Natasha",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65521280",
+        "tenantId": null
+      },
+      {
+        "reference": "99e99743-c280-42cf-a76b-6bb098602599",
+        "email": "Francesco.Sauer46@yahoo.com",
+        "firstName": "Carmine",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/271.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d32ad59-c169-422b-bb2b-f088ff1784a9",
+        "email": "Andy.Torp8@yahoo.com",
+        "firstName": "Clare",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/164.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "d236ce92-7d73-49dc-a032-38d040007652",
+        "subject": "Mathematics",
+        "qualification": "Bachelor's degree in Education",
+        "experience": 1929,
+        "created_at": "2023-08-31T12:43:55.459Z",
+        "updated_at": "2023-08-30T23:14:37.565Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e26b77bb-4e29-4ddb-817a-e4c75ec5cc42",
+        "subject": "Science",
+        "qualification": "Master's degree in the subject area",
+        "experience": 73012,
+        "created_at": "2023-08-31T06:49:54.344Z",
+        "updated_at": "2023-08-31T07:11:13.481Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9189d2a1-a23d-43fe-8ac6-d306033a9a75",
+        "subject": "English",
+        "qualification": "Teaching certification",
+        "experience": 35745,
+        "created_at": "2023-08-31T08:40:00.327Z",
+        "updated_at": "2023-08-31T16:47:12.945Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b33d219-6b1f-46df-85df-0a6a035aae4a",
+        "subject": "History",
+        "qualification": "Years of experience in teaching",
+        "experience": 55578,
+        "created_at": "2023-08-31T15:35:20.398Z",
+        "updated_at": "2023-08-31T10:20:19.289Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8718cbd0-f6c7-480c-9679-ee7b892789b0",
+        "subject": "Computer Science",
+        "qualification": "Specialization in a specific teaching methodology",
+        "experience": 61264,
+        "created_at": "2023-08-31T10:45:59.174Z",
+        "updated_at": "2023-08-31T18:30:42.350Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "c3d4d36e-a62f-4d27-8dec-10794f142520",
+        "grade": 67570,
+        "performance_data": "Excellent academic performance",
+        "routine": "Attends classes regularly",
+        "created_at": "2023-08-31T12:52:03.728Z",
+        "updated_at": "2023-08-30T21:48:10.785Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "089c37af-bb30-4d65-b8c0-c2e7f9413ee7",
+        "grade": 11013,
+        "performance_data": "Active participation in extracurricular activities",
+        "routine": "Completes homework assignments on time",
+        "created_at": "2023-08-31T07:27:28.267Z",
+        "updated_at": "2023-08-31T17:28:59.446Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68b1b275-cb62-4466-998f-2c71101460dc",
+        "grade": 18983,
+        "performance_data": "Leadership qualities and teamwork skills",
+        "routine": "Engages in self-study and revision",
+        "created_at": "2023-08-31T18:37:02.525Z",
+        "updated_at": "2023-08-31T14:36:26.813Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d8e990f-349f-4c93-b829-c61f524b0f29",
+        "grade": 21114,
+        "performance_data": "Consistent improvement in grades",
+        "routine": "Participates in sports and cultural events",
+        "created_at": "2023-08-31T03:59:55.362Z",
+        "updated_at": "2023-08-31T04:08:57.906Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40cde3b4-0431-4bb8-acb3-1d24f38fa3ce",
+        "grade": 97358,
+        "performance_data": "Demonstrated creativity and critical thinking",
+        "routine": "Maintains a balanced schedule for academics and leisure activities",
+        "created_at": "2023-08-30T23:18:39.118Z",
+        "updated_at": "2023-08-31T09:46:49.970Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "c13ee94c-d851-45ce-be84-96e53208f23b",
+        "relationship": "Loving and supportive parent",
+        "contact_number": "+1 (123) 456-7890",
+        "address": "123 Main Street, Anytown, USA",
+        "created_at": "2023-08-31T11:44:27.797Z",
+        "updated_at": "2023-08-31T17:15:05.747Z",
+        "student_id": "c3d4d36e-a62f-4d27-8dec-10794f142520",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "163e3992-2649-4036-bdf7-0f0fcf8e9258",
+        "relationship": "Active involvement in the child's education",
+        "contact_number": "+1 (987) 654-3210",
+        "address": "456 Elm Avenue, Cityville, USA",
+        "created_at": "2023-08-31T16:57:15.694Z",
+        "updated_at": "2023-08-31T17:09:04.551Z",
+        "student_id": "089c37af-bb30-4d65-b8c0-c2e7f9413ee7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8484e670-d0e5-410a-9891-65044f3c7aa2",
+        "relationship": "Encourages personal growth and development",
+        "contact_number": "+1 (555) 123-4567",
+        "address": "789 Oak Lane, Townsville, USA",
+        "created_at": "2023-08-30T22:53:31.621Z",
+        "updated_at": "2023-08-30T21:28:31.810Z",
+        "student_id": "2d8e990f-349f-4c93-b829-c61f524b0f29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4021376-90b5-456e-aaa5-6b457c5645a4",
+        "relationship": "Provides guidance and mentorship",
+        "contact_number": "+1 (888) 999-0000",
+        "address": "321 Pine Road, Villageland, USA",
+        "created_at": "2023-08-31T12:07:19.459Z",
+        "updated_at": "2023-08-30T21:09:30.276Z",
+        "student_id": "089c37af-bb30-4d65-b8c0-c2e7f9413ee7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17267ae6-ab0d-4c3f-b926-4a6e184aab71",
+        "relationship": "Promotes a healthy work-life balance",
+        "contact_number": "+1 (777) 555-1234",
+        "address": "654 Maple Drive, Countryside, USA",
+        "created_at": "2023-08-31T06:39:14.132Z",
+        "updated_at": "2023-08-31T10:21:40.278Z",
+        "student_id": "40cde3b4-0431-4bb8-acb3-1d24f38fa3ce",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "af2a9f59-1e04-46c9-86b6-67d441ecdaf2",
+        "topic": "Upcoming school events",
+        "message": "Dear parents, we would like to inform you about the upcoming school event...",
+        "date_time": "2023-08-31T13:44:19.451Z",
+        "created_at": "2023-08-31T14:48:39.405Z",
+        "updated_at": "2023-08-30T20:35:54.125Z",
+        "parent_id": "17267ae6-ab0d-4c3f-b926-4a6e184aab71",
+        "teacher_id": "2b33d219-6b1f-46df-85df-0a6a035aae4a"
+      },
+      {
+        "id": "ceb4c8e1-3cc1-44a5-9a0e-e0735880139a",
+        "topic": "Parent-teacher conference",
+        "message": "Hello, we would like to schedule a parent-teacher conference to discuss your child's progress...",
+        "date_time": "2023-08-31T16:17:47.427Z",
+        "created_at": "2023-08-31T17:14:07.104Z",
+        "updated_at": "2023-08-30T22:22:10.971Z",
+        "parent_id": "163e3992-2649-4036-bdf7-0f0fcf8e9258",
+        "teacher_id": "9189d2a1-a23d-43fe-8ac6-d306033a9a75"
+      },
+      {
+        "id": "1cdbd3e0-26e0-4051-bfff-e20c2d1562aa",
+        "topic": "Student's academic progress",
+        "message": "We are pleased to inform you that your child has shown significant improvement in their academic performance...",
+        "date_time": "2023-08-31T15:23:27.739Z",
+        "created_at": "2023-08-31T02:44:37.991Z",
+        "updated_at": "2023-08-30T19:18:49.259Z",
+        "parent_id": "163e3992-2649-4036-bdf7-0f0fcf8e9258",
+        "teacher_id": "d236ce92-7d73-49dc-a032-38d040007652"
+      },
+      {
+        "id": "8090b500-01d1-4261-99e5-c12b73fab762",
+        "topic": "Extracurricular activity opportunities",
+        "message": "Dear students, we would like to invite you to participate in the upcoming extracurricular activity...",
+        "date_time": "2023-08-31T08:10:42.673Z",
+        "created_at": "2023-08-31T16:29:18.593Z",
+        "updated_at": "2023-08-31T05:44:04.719Z",
+        "parent_id": "8484e670-d0e5-410a-9891-65044f3c7aa2",
+        "teacher_id": "2b33d219-6b1f-46df-85df-0a6a035aae4a"
+      },
+      {
+        "id": "996f2168-c15d-4558-a4c1-53c638c33e6e",
+        "topic": "School policies and procedures",
+        "message": "Please take note of the updated school policies and procedures...",
+        "date_time": "2023-08-31T10:57:39.886Z",
+        "created_at": "2023-08-30T23:34:35.636Z",
+        "updated_at": "2023-08-31T16:02:40.611Z",
+        "parent_id": "17267ae6-ab0d-4c3f-b926-4a6e184aab71",
+        "teacher_id": "e26b77bb-4e29-4ddb-817a-e4c75ec5cc42"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a81a2eac-fd32-4221-a1d5-23c4d73b8e08",
+        "email": "Leann.Emard@hotmail.com",
+        "firstName": "Mohamed",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76530359",
+        "tenantId": null
+      },
+      {
+        "reference": "ffc8d565-9237-4c0b-b4e1-227e6d9f922a",
+        "email": "Lillie_Hettinger61@yahoo.com",
+        "firstName": "Maritza",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49289351",
+        "tenantId": null
+      },
+      {
+        "reference": "a2606f2a-4ce9-4380-8b97-7653ef789ce8",
+        "email": "Jerome.Wintheiser43@gmail.com",
+        "firstName": "Earline",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/249.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "596f7361-1464-4cd1-9214-8576ae328acf",
+        "email": "Celestino17@yahoo.com",
+        "firstName": "Antonio",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32184467",
+        "tenantId": null
+      },
+      {
+        "reference": "d930baed-8b73-4f16-9fc5-eb6141e76aa3",
+        "email": "Ethel.Terry0@yahoo.com",
+        "firstName": "Robert",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/244.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "64f5c4de-cf99-4900-a219-e03dced86a22",
+        "subject": "Mathematics",
+        "qualification": "Bachelor's degree in Education",
+        "experience": 35658,
+        "created_at": "2023-08-31T14:35:12.020Z",
+        "updated_at": "2023-08-31T01:25:01.123Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7546e4c3-531a-4736-bda8-355cce5aee06",
+        "subject": "Science",
+        "qualification": "Master's degree in the subject area",
+        "experience": 20608,
+        "created_at": "2023-08-31T00:06:33.818Z",
+        "updated_at": "2023-08-30T19:51:44.703Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1d4d0db-69b3-43e0-9d3d-e5012a727e21",
+        "subject": "English",
+        "qualification": "Teaching certification",
+        "experience": 26409,
+        "created_at": "2023-08-31T09:20:35.198Z",
+        "updated_at": "2023-08-30T22:05:10.185Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b519286-3f0a-4bec-b8dc-04c7e4f8244d",
+        "subject": "History",
+        "qualification": "Years of experience in teaching",
+        "experience": 94786,
+        "created_at": "2023-08-31T10:19:28.594Z",
+        "updated_at": "2023-08-31T12:35:21.720Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0425562a-e345-4124-a4ce-a3078287b342",
+        "subject": "Art",
+        "qualification": "Specialization in a specific teaching method",
+        "experience": 58704,
+        "created_at": "2023-08-31T03:34:42.867Z",
+        "updated_at": "2023-08-31T16:16:10.384Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "48724387-1b4f-46fd-93de-2f30c8a503f4",
+        "grade": 92568,
+        "performance_data": "Excellent academic record",
+        "routine": "Attends classes regularly",
+        "created_at": "2023-08-30T20:29:53.838Z",
+        "updated_at": "2023-08-31T17:45:40.378Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b79f030-e2a4-4ee8-b9c4-cf2f387d7e9c",
+        "grade": 95041,
+        "performance_data": "Active participation in extracurricular activities",
+        "routine": "Completes homework on time",
+        "created_at": "2023-08-31T00:27:39.564Z",
+        "updated_at": "2023-08-31T00:12:32.839Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "864a416e-f796-4636-ab06-3830d235a40b",
+        "grade": 3708,
+        "performance_data": "Leadership skills demonstrated through various projects",
+        "routine": "Participates in class discussions",
+        "created_at": "2023-08-31T00:26:15.516Z",
+        "updated_at": "2023-08-31T18:28:41.127Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "905d427f-71c1-4188-bd41-152fda9adf41",
+        "grade": 74245,
+        "performance_data": "Consistent improvement in academic performance",
+        "routine": "Engages in independent study",
+        "created_at": "2023-08-31T10:46:55.873Z",
+        "updated_at": "2023-08-31T03:28:45.264Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33b8592c-ebe4-4e0a-932a-38bba94db392",
+        "grade": 10063,
+        "performance_data": "Positive feedback from teachers",
+        "routine": "Maintains a balanced schedule",
+        "created_at": "2023-08-30T21:15:01.718Z",
+        "updated_at": "2023-08-31T07:49:19.630Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "ec1fa981-e9fa-477e-ac89-58d2ed421711",
+        "relationship": "Loving and supportive parent",
+        "contact_number": "(123) 456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T08:54:52.046Z",
+        "updated_at": "2023-08-31T08:14:52.981Z",
+        "student_id": "864a416e-f796-4636-ab06-3830d235a40b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd6bbf92-0a2a-4c4a-8184-4a2ca7475082",
+        "relationship": "Active involvement in child's education",
+        "contact_number": "(987) 654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T07:59:54.171Z",
+        "updated_at": "2023-08-31T01:15:16.261Z",
+        "student_id": "33b8592c-ebe4-4e0a-932a-38bba94db392",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9af1fcf0-ce67-4c93-a725-4005c0145105",
+        "relationship": "Encourages and motivates the child",
+        "contact_number": "(555) 123-4567",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-31T18:17:42.678Z",
+        "updated_at": "2023-08-30T20:00:49.266Z",
+        "student_id": "48724387-1b4f-46fd-93de-2f30c8a503f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7bcf5ad-461b-440b-becd-88f929d8203d",
+        "relationship": "Attends parent-teacher meetings regularly",
+        "contact_number": "(888) 999-0000",
+        "address": "321 Maple Drive",
+        "created_at": "2023-08-30T23:39:39.556Z",
+        "updated_at": "2023-08-31T14:08:21.089Z",
+        "student_id": "905d427f-71c1-4188-bd41-152fda9adf41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65127e8f-3e9c-42ba-b5b9-80d7ac8b6ca0",
+        "relationship": "Provides guidance and mentorship",
+        "contact_number": "(777) 888-9999",
+        "address": "555 Pine Road",
+        "created_at": "2023-08-31T02:02:55.827Z",
+        "updated_at": "2023-08-31T06:35:45.913Z",
+        "student_id": "864a416e-f796-4636-ab06-3830d235a40b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "a60cade1-527b-4c7a-83af-4a0b2ca02902",
+        "topic": "Upcoming school event",
+        "message": "Dear parents, we would like to inform you about the upcoming school event.",
+        "date_time": "2023-08-31T14:15:42.252Z",
+        "created_at": "2023-08-30T21:11:24.896Z",
+        "updated_at": "2023-08-30T19:05:52.212Z",
+        "parent_id": "ec1fa981-e9fa-477e-ac89-58d2ed421711",
+        "teacher_id": "0425562a-e345-4124-a4ce-a3078287b342"
+      },
+      {
+        "id": "f39001eb-36a7-4ec8-8253-718ff0743c54",
+        "topic": "Student progress update",
+        "message": "Hello, we wanted to share an update on your child's progress.",
+        "date_time": "2023-08-31T04:19:33.794Z",
+        "created_at": "2023-08-31T17:07:10.126Z",
+        "updated_at": "2023-08-31T17:17:46.276Z",
+        "parent_id": "9af1fcf0-ce67-4c93-a725-4005c0145105",
+        "teacher_id": "64f5c4de-cf99-4900-a219-e03dced86a22"
+      },
+      {
+        "id": "c2576e89-fb40-4a1d-87b3-07c22d3a6822",
+        "topic": "Parent-teacher conference",
+        "message": "We would like to invite you to a parent-teacher conference.",
+        "date_time": "2023-08-31T06:47:35.620Z",
+        "created_at": "2023-08-31T06:23:19.395Z",
+        "updated_at": "2023-08-31T03:28:51.033Z",
+        "parent_id": "bd6bbf92-0a2a-4c4a-8184-4a2ca7475082",
+        "teacher_id": "64f5c4de-cf99-4900-a219-e03dced86a22"
+      },
+      {
+        "id": "5dbe653c-7557-4474-8575-57e67c7ce085",
+        "topic": "Extracurricular activity participation",
+        "message": "Your child has shown great enthusiasm in participating in extracurricular activities.",
+        "date_time": "2023-08-31T04:45:59.034Z",
+        "created_at": "2023-08-31T15:11:41.076Z",
+        "updated_at": "2023-08-31T01:42:26.949Z",
+        "parent_id": "65127e8f-3e9c-42ba-b5b9-80d7ac8b6ca0",
+        "teacher_id": "4b519286-3f0a-4bec-b8dc-04c7e4f8244d"
+      },
+      {
+        "id": "3d2f9464-7b21-4159-a081-3adb246715ee",
+        "topic": "School policy update",
+        "message": "Please be informed about the recent school policy update.",
+        "date_time": "2023-08-31T13:42:08.294Z",
+        "created_at": "2023-08-31T00:07:18.260Z",
+        "updated_at": "2023-08-30T23:06:41.356Z",
+        "parent_id": "bd6bbf92-0a2a-4c4a-8184-4a2ca7475082",
+        "teacher_id": "e1d4d0db-69b3-43e0-9d3d-e5012a727e21"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ef96ae07-3028-4edb-9622-90bf18b0654d",
+        "email": "Rick_Strosin@yahoo.com",
+        "firstName": "Erich",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74812245",
+        "tenantId": null
+      },
+      {
+        "reference": "d48c22ce-0786-4beb-b9c3-e0ed85cca93b",
+        "email": "Ariel_Marvin@yahoo.com",
+        "firstName": "Aiden",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37017392",
+        "tenantId": null
+      },
+      {
+        "reference": "1defce79-36d7-4319-802a-c914646818ca",
+        "email": "Shane7@hotmail.com",
+        "firstName": "Matilda",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/355.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ddb444a-9398-48ed-820f-206c7e71a997",
+        "email": "Torrance.VonRueden@yahoo.com",
+        "firstName": "Chase",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/337.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01e4924c-ba1d-47ce-965f-c76f3c5eac5c",
+        "email": "Asa52@hotmail.com",
+        "firstName": "Rahul",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65710967",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "c35b06e1-ffa7-431f-b035-ee97d07bd17a",
+        "subject": "Mathematics",
+        "qualification": "Bachelor's degree in Education",
+        "experience": 65326,
+        "created_at": "2023-08-31T02:27:55.993Z",
+        "updated_at": "2023-08-31T12:34:07.927Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48f30150-12c4-4865-8362-ce6b03d6e50c",
+        "subject": "Science",
+        "qualification": "Master's degree in the subject area",
+        "experience": 47850,
+        "created_at": "2023-08-30T19:21:49.780Z",
+        "updated_at": "2023-08-31T18:44:46.056Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5361fde-db92-4e9c-97e5-1090c84193e6",
+        "subject": "English",
+        "qualification": "Teaching certification",
+        "experience": 71084,
+        "created_at": "2023-08-30T22:32:38.650Z",
+        "updated_at": "2023-08-31T12:16:11.585Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "453bcdee-3418-41d0-98cd-854f71c0d1b6",
+        "subject": "History",
+        "qualification": "Years of experience in teaching",
+        "experience": 81289,
+        "created_at": "2023-08-31T09:57:53.282Z",
+        "updated_at": "2023-08-31T10:49:45.665Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc063d10-0198-4b86-bef8-4e0ff233fc54",
+        "subject": "Art",
+        "qualification": "Specialization in a specific teaching method",
+        "experience": 20364,
+        "created_at": "2023-08-30T21:11:11.928Z",
+        "updated_at": "2023-08-30T20:53:39.949Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "879fe853-a0ae-4b42-82c6-35c7850466bf",
+        "grade": 48043,
+        "performance_data": "Top performer in class",
+        "routine": "Attends classes regularly",
+        "created_at": "2023-08-31T09:22:46.160Z",
+        "updated_at": "2023-08-30T19:39:15.993Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d802adba-b645-4670-9fd5-6b0029d23ad2",
+        "grade": 88708,
+        "performance_data": "Consistently improving grades",
+        "routine": "Completes homework on time",
+        "created_at": "2023-08-31T16:54:37.248Z",
+        "updated_at": "2023-08-31T12:47:38.229Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89744636-2a9b-4ed1-8494-ffb547c811a9",
+        "grade": 27603,
+        "performance_data": "Active participation in extracurricular activities",
+        "routine": "Participates in class discussions",
+        "created_at": "2023-08-31T03:43:32.642Z",
+        "updated_at": "2023-08-30T19:43:05.673Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "060a65d0-eea0-4365-976e-726d9af6779c",
+        "grade": 16222,
+        "performance_data": "Excellent teamwork and leadership skills",
+        "routine": "Engages in self-study and revision",
+        "created_at": "2023-08-31T01:22:58.922Z",
+        "updated_at": "2023-08-31T10:56:08.239Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16c0bf7e-2679-46d0-b5f1-84d2de3193dd",
+        "grade": 13451,
+        "performance_data": "Creative and critical thinking abilities",
+        "routine": "Maintains a balanced schedule",
+        "created_at": "2023-08-30T22:07:29.637Z",
+        "updated_at": "2023-08-31T10:48:46.371Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "3f44518c-122c-448c-8861-bd12d911ceb6",
+        "relationship": "Loving and supportive parent",
+        "contact_number": "(123) 456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T09:19:31.626Z",
+        "updated_at": "2023-08-31T14:05:25.887Z",
+        "student_id": "d802adba-b645-4670-9fd5-6b0029d23ad2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c52d748-441e-451d-a321-4f93ed7de78d",
+        "relationship": "Active involvement in child's education",
+        "contact_number": "(987) 654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-30T20:19:09.429Z",
+        "updated_at": "2023-08-31T06:31:12.059Z",
+        "student_id": "16c0bf7e-2679-46d0-b5f1-84d2de3193dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfeb0624-54ed-46a5-8548-68a026de8a84",
+        "relationship": "Encourages personal growth and independence",
+        "contact_number": "(555) 123-4567",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-31T15:57:22.541Z",
+        "updated_at": "2023-08-31T03:55:33.851Z",
+        "student_id": "d802adba-b645-4670-9fd5-6b0029d23ad2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "812f324a-7db5-4edd-8816-5d6d098a002b",
+        "relationship": "Strong advocate for child's needs",
+        "contact_number": "(888) 999-0000",
+        "address": "321 Pine Road",
+        "created_at": "2023-08-31T09:53:47.556Z",
+        "updated_at": "2023-08-31T11:28:08.320Z",
+        "student_id": "16c0bf7e-2679-46d0-b5f1-84d2de3193dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "251a9200-b205-496f-a9d3-5359f35faff2",
+        "relationship": "Maintains open communication with teachers",
+        "contact_number": "(444) 777-8888",
+        "address": "987 Maple Drive",
+        "created_at": "2023-08-30T21:11:36.519Z",
+        "updated_at": "2023-08-31T11:48:33.139Z",
+        "student_id": "879fe853-a0ae-4b42-82c6-35c7850466bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "61116cf2-f187-418c-bfab-d80ca082ac92",
+        "topic": "Upcoming school events",
+        "message": "Dear parents, we are excited to announce the upcoming school fair on Saturday!",
+        "date_time": "2023-08-31T03:57:03.465Z",
+        "created_at": "2023-08-30T21:37:43.529Z",
+        "updated_at": "2023-08-31T00:09:43.585Z",
+        "parent_id": "cfeb0624-54ed-46a5-8548-68a026de8a84",
+        "teacher_id": "cc063d10-0198-4b86-bef8-4e0ff233fc54"
+      },
+      {
+        "id": "4d7d5f9e-9f6b-4155-a78a-6ec537f1f347",
+        "topic": "Parent-teacher conference",
+        "message": "Hello, we would like to schedule a parent-teacher conference to discuss your child's progress.",
+        "date_time": "2023-08-31T00:18:13.216Z",
+        "created_at": "2023-08-31T17:47:10.620Z",
+        "updated_at": "2023-08-30T19:45:07.092Z",
+        "parent_id": "251a9200-b205-496f-a9d3-5359f35faff2",
+        "teacher_id": "453bcdee-3418-41d0-98cd-854f71c0d1b6"
+      },
+      {
+        "id": "c1f41f84-54c0-4e0c-91e9-e26aa7f8e69d",
+        "topic": "Student progress update",
+        "message": "Good news! Your child has shown significant improvement in their academic performance.",
+        "date_time": "2023-08-31T14:26:15.230Z",
+        "created_at": "2023-08-31T11:22:49.498Z",
+        "updated_at": "2023-08-31T08:53:21.514Z",
+        "parent_id": "3f44518c-122c-448c-8861-bd12d911ceb6",
+        "teacher_id": "e5361fde-db92-4e9c-97e5-1090c84193e6"
+      },
+      {
+        "id": "19896a51-eadf-4975-acaa-dea0d9620a53",
+        "topic": "Extracurricular activity opportunities",
+        "message": "We have various clubs and sports teams available for students to join. Please encourage your child to explore their interests.",
+        "date_time": "2023-08-31T14:38:42.970Z",
+        "created_at": "2023-08-30T23:59:30.344Z",
+        "updated_at": "2023-08-30T23:48:27.393Z",
+        "parent_id": "812f324a-7db5-4edd-8816-5d6d098a002b",
+        "teacher_id": "c35b06e1-ffa7-431f-b035-ee97d07bd17a"
+      },
+      {
+        "id": "6f2d284a-6669-4db2-a8a9-63f5f1c94ea4",
+        "topic": "School policy changes",
+        "message": "Please take note of the recent changes in our school's uniform policy.",
+        "date_time": "2023-08-31T16:20:13.076Z",
+        "created_at": "2023-08-31T18:01:45.668Z",
+        "updated_at": "2023-08-31T03:29:10.775Z",
+        "parent_id": "cfeb0624-54ed-46a5-8548-68a026de8a84",
+        "teacher_id": "c35b06e1-ffa7-431f-b035-ee97d07bd17a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "401863a9-84da-4f9c-8254-468694ecbddf",
+        "email": "Deven_Hintz@hotmail.com",
+        "firstName": "Deontae",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64404445",
+        "tenantId": null
+      },
+      {
+        "reference": "f26dd421-31da-46c6-8662-0404eb2bc0fb",
+        "email": "Aylin20@gmail.com",
+        "firstName": "Heloise",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1063.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7986f3bb-c4bc-44c2-8c1f-dd33fe27d3e0",
+        "email": "Tamara.Conn73@yahoo.com",
+        "firstName": "Mellie",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8ebd7d9-5c1e-43a8-a83b-311eda1684b9",
+        "email": "Callie_Hodkiewicz@yahoo.com",
+        "firstName": "Jordane",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37014205",
+        "tenantId": null
+      },
+      {
+        "reference": "8258a285-e5b8-443c-a724-de4bb1225be9",
+        "email": "Cade.Swift61@gmail.com",
+        "firstName": "Mckenzie",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75765349",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "56ec4ed4-3807-47ef-ac9c-98f04fd92511",
+        "subject": "Mathematics",
+        "qualification": "Master's Degree in Education",
+        "experience": 27851,
+        "created_at": "2023-08-31T16:29:03.679Z",
+        "updated_at": "2023-08-31T12:24:58.296Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6601eeec-3e17-42bb-a017-9ef6b16c4e97",
+        "subject": "English Literature",
+        "qualification": "Ph.D. in Physics",
+        "experience": 45,
+        "created_at": "2023-08-30T19:13:31.043Z",
+        "updated_at": "2023-08-31T09:48:19.093Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "384f8c66-0790-4934-bf3d-13fc87481301",
+        "subject": "Science",
+        "qualification": "Bachelor's Degree in English",
+        "experience": 97897,
+        "created_at": "2023-08-31T17:15:31.947Z",
+        "updated_at": "2023-08-31T09:36:00.541Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20375155-244d-4ece-b932-6252e334b01a",
+        "subject": "History",
+        "qualification": "Certified Teacher in Mathematics",
+        "experience": 36789,
+        "created_at": "2023-08-30T20:35:00.295Z",
+        "updated_at": "2023-08-31T09:39:04.575Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7ed3221-9ef1-42f6-8842-b25db0a88170",
+        "subject": "Computer Science",
+        "qualification": "Specialization in Chemistry",
+        "experience": 5670,
+        "created_at": "2023-08-31T06:09:40.744Z",
+        "updated_at": "2023-08-31T04:58:41.833Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "0cdb9869-cc79-4207-83c9-3bcaf63afb54",
+        "grade": 18233,
+        "performance_data": "Top performer in Mathematics",
+        "routine": "Attends classes regularly",
+        "created_at": "2023-08-31T05:37:04.960Z",
+        "updated_at": "2023-08-31T12:04:04.219Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66ac0e2b-7290-4931-b9cb-afa8ae8e42a2",
+        "grade": 41226,
+        "performance_data": "Outstanding in Sports",
+        "routine": "Engages in self-study",
+        "created_at": "2023-08-31T16:35:59.083Z",
+        "updated_at": "2023-08-31T11:35:05.521Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a48bef3-8349-4423-9745-d5f1e40afdbb",
+        "grade": 73126,
+        "performance_data": "Award-winning artist",
+        "routine": "Participates in group projects",
+        "created_at": "2023-08-31T18:05:33.301Z",
+        "updated_at": "2023-08-31T04:47:14.232Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5189734d-6d6e-46d5-b1c8-fbf3fd1e1fe5",
+        "grade": 96822,
+        "performance_data": "Excellent academic record",
+        "routine": "Balances academics and sports",
+        "created_at": "2023-08-31T03:09:01.234Z",
+        "updated_at": "2023-08-31T12:21:35.629Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3d5fa27-432a-4e31-8528-5276543e96ce",
+        "grade": 14017,
+        "performance_data": "Active participant in extracurricular activities",
+        "routine": "Follows a disciplined study schedule",
+        "created_at": "2023-08-31T04:07:43.283Z",
+        "updated_at": "2023-08-31T11:55:34.198Z",
+        "school_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "parent": [
+      {
+        "id": "b578349c-2b62-461d-975d-8cb8dc137b44",
+        "relationship": "Father",
+        "contact_number": "+1 123-456-7890",
+        "address": "123 Main Street",
+        "created_at": "2023-08-31T17:03:11.184Z",
+        "updated_at": "2023-08-31T15:41:50.374Z",
+        "student_id": "d3d5fa27-432a-4e31-8528-5276543e96ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83428176-d807-46e1-98b7-bee01e87849c",
+        "relationship": "Mother",
+        "contact_number": "+1 987-654-3210",
+        "address": "456 Elm Avenue",
+        "created_at": "2023-08-31T08:04:26.590Z",
+        "updated_at": "2023-08-31T13:33:31.487Z",
+        "student_id": "66ac0e2b-7290-4931-b9cb-afa8ae8e42a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c7fb4a5-b28a-4e89-b03a-e97718b46145",
+        "relationship": "Guardian",
+        "contact_number": "+1 555-123-4567",
+        "address": "789 Oak Lane",
+        "created_at": "2023-08-31T15:11:16.988Z",
+        "updated_at": "2023-08-31T08:59:50.339Z",
+        "student_id": "0a48bef3-8349-4423-9745-d5f1e40afdbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c2eaaf3-963e-469e-a488-ae14a08f48e5",
+        "relationship": "Step-parent",
+        "contact_number": "+1 888-999-0000",
+        "address": "321 Pine Road",
+        "created_at": "2023-08-31T01:27:46.601Z",
+        "updated_at": "2023-08-31T00:42:59.869Z",
+        "student_id": "5189734d-6d6e-46d5-b1c8-fbf3fd1e1fe5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97e1c0ff-202c-4533-bf69-2bc6236040bb",
+        "relationship": "Grandparent",
+        "contact_number": "+1 777-888-9999",
+        "address": "555 Maple Court",
+        "created_at": "2023-08-30T23:31:59.867Z",
+        "updated_at": "2023-08-31T16:33:37.980Z",
+        "student_id": "d3d5fa27-432a-4e31-8528-5276543e96ce",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "4fe59276-f4fc-4c50-9eb5-5aca70c6d073",
+        "topic": "Upcoming school event",
+        "message": "Dear parents, we are excited to announce the annual school carnival on Saturday!",
+        "date_time": "2023-08-31T12:56:12.283Z",
+        "created_at": "2023-08-31T07:07:08.298Z",
+        "updated_at": "2023-08-31T03:44:42.016Z",
+        "parent_id": "97e1c0ff-202c-4533-bf69-2bc6236040bb",
+        "teacher_id": "384f8c66-0790-4934-bf3d-13fc87481301"
+      },
+      {
+        "id": "ec27c262-605d-4384-9d9e-e33b63a99a06",
+        "topic": "Parent-teacher meeting",
+        "message": "Good evening, we would like to schedule a meeting to discuss your child's progress.",
+        "date_time": "2023-08-31T01:14:35.318Z",
+        "created_at": "2023-08-31T04:33:44.590Z",
+        "updated_at": "2023-08-31T14:09:18.261Z",
+        "parent_id": "83428176-d807-46e1-98b7-bee01e87849c",
+        "teacher_id": "20375155-244d-4ece-b932-6252e334b01a"
+      },
+      {
+        "id": "63aaadb6-3536-45e8-bebe-c7d2c7136b73",
+        "topic": "Student progress update",
+        "message": "Hello, we wanted to inform you about the recent changes in our school's dress code policy.",
+        "date_time": "2023-08-31T17:09:02.421Z",
+        "created_at": "2023-08-31T11:00:42.305Z",
+        "updated_at": "2023-08-30T21:53:15.282Z",
+        "parent_id": "97e1c0ff-202c-4533-bf69-2bc6236040bb",
+        "teacher_id": "56ec4ed4-3807-47ef-ac9c-98f04fd92511"
+      },
+      {
+        "id": "bb64c386-21d8-497e-b093-7f881b7bd8a9",
+        "topic": "School policy changes",
+        "message": "Dear students, the registration for the school's basketball team is now open.",
+        "date_time": "2023-08-31T01:36:03.109Z",
+        "created_at": "2023-08-30T23:03:25.473Z",
+        "updated_at": "2023-08-31T02:51:38.271Z",
+        "parent_id": "4c2eaaf3-963e-469e-a488-ae14a08f48e5",
+        "teacher_id": "6601eeec-3e17-42bb-a017-9ef6b16c4e97"
+      },
+      {
+        "id": "93a2a02c-bed5-4c30-b1a6-89c57179a8cb",
+        "topic": "Extracurricular activity registration",
+        "message": "Dear parents, we would like to share the latest update on our school's music program.",
+        "date_time": "2023-08-31T00:58:13.896Z",
+        "created_at": "2023-08-31T16:47:56.774Z",
+        "updated_at": "2023-08-31T15:20:53.732Z",
+        "parent_id": "4c2eaaf3-963e-469e-a488-ae14a08f48e5",
+        "teacher_id": "56ec4ed4-3807-47ef-ac9c-98f04fd92511"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b90b78fc-6f23-42f0-bfad-5887ca404537",
+        "email": "Aniyah_Jaskolski@yahoo.com",
+        "firstName": "Ludie",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51675609",
+        "tenantId": null
+      },
+      {
+        "reference": "8b79a568-d439-4131-b550-341d824d9af5",
+        "email": "Kamren57@gmail.com",
+        "firstName": "Jana",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94976124",
+        "tenantId": null
+      },
+      {
+        "reference": "f678c1ae-65d9-4499-9eab-0786841612b0",
+        "email": "Sigrid.Balistreri34@hotmail.com",
+        "firstName": "Ada",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28087814",
+        "tenantId": null
+      },
+      {
+        "reference": "8d6f7e01-d473-4c70-b1d4-661cf3fc90ca",
+        "email": "Liliane60@hotmail.com",
+        "firstName": "Charlene",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/466.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5eb231be-b798-48d8-98b3-d4fdbae89479",
+        "email": "Julia_Koss63@gmail.com",
+        "firstName": "Ernestine",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/442.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]

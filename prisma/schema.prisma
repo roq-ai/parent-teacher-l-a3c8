@@ -1,0 +1,93 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model conversation {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  parent_id  String   @db.Uuid
+  teacher_id String   @db.Uuid
+  topic      String   @db.VarChar(255)
+  message    String
+  date_time  DateTime @db.Timestamp(6)
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  parent     parent   @relation(fields: [parent_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  teacher    teacher  @relation(fields: [teacher_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model parent {
+  id             String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id        String         @db.Uuid
+  student_id     String         @db.Uuid
+  relationship   String         @db.VarChar(255)
+  contact_number String         @db.VarChar(255)
+  address        String         @db.VarChar(255)
+  created_at     DateTime       @default(now()) @db.Timestamp(6)
+  updated_at     DateTime       @default(now()) @db.Timestamp(6)
+  conversation   conversation[]
+  student        student        @relation(fields: [student_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user           user           @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model school {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?   @db.VarChar(255)
+  name        String    @db.VarChar(255)
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  user_id     String    @db.Uuid
+  tenant_id   String    @db.VarChar(255)
+  user        user      @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  student     student[]
+  teacher     teacher[]
+}
+
+model student {
+  id               String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  school_id        String   @db.Uuid
+  user_id          String   @db.Uuid
+  grade            Int
+  performance_data String
+  routine          String
+  created_at       DateTime @default(now()) @db.Timestamp(6)
+  updated_at       DateTime @default(now()) @db.Timestamp(6)
+  parent           parent[]
+  school           school   @relation(fields: [school_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user             user     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model teacher {
+  id            String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id       String         @db.Uuid
+  school_id     String         @db.Uuid
+  subject       String         @db.VarChar(255)
+  qualification String         @db.VarChar(255)
+  experience    Int
+  created_at    DateTime       @default(now()) @db.Timestamp(6)
+  updated_at    DateTime       @default(now()) @db.Timestamp(6)
+  conversation  conversation[]
+  school        school         @relation(fields: [school_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user          user           @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String    @unique @db.VarChar(255)
+  firstName   String?   @db.VarChar(255)
+  lastName    String?   @db.VarChar(255)
+  roq_user_id String    @db.VarChar(255)
+  tenant_id   String    @db.VarChar(255)
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  parent      parent[]
+  school      school[]
+  student     student[]
+  teacher     teacher[]
+}
